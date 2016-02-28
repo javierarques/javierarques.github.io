@@ -21,12 +21,13 @@ body {
 h1,
 h2 {
     font-family: 'Montserrat';
+    margin-top: 0;
 }
 
 h1 {
     font-size: 4rem;
     font-weight: 700;
-    text-shadow: 3px 3px 1px rgba(246, 36, 89, .6);
+    text-shadow: 3px 3px 0 rgba(246, 36, 89, .5);
 }
 
 h2,
@@ -67,12 +68,15 @@ a {
     fill: #fff;
     transition: background 400ms linear;
 }
+.icon.animated {
+    animation-duration: 400ms;   
+}
 .icon svg {
   margin: auto;
 }
 
 .icon:hover {
-  background: #3A539B;
+  background: rgba(58, 83, 155, .7);
 }
 
 
